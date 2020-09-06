@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/lby?serverTimezone=GMT
+    username: root
+    password: 123456
+mybatis:
+  type-aliases-package: cn.catcatmeow.pojo
+server:
+  port: 80
